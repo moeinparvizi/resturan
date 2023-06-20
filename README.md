@@ -23,14 +23,14 @@ moein parvizi
 
   <p align="center">
     <br />
-    <a href="https://github.com/moeinparvizi/returan"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/moeinparvizi/resturan"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/moeinparvizi/returan">View Demo</a>
+    <a href="https://github.com/moeinparvizi/resturan">View Demo</a>
     ·
-    <a href="https://github.com/moeinparvizi/returan/issues">Report Bug</a>
+    <a href="https://github.com/moeinparvizi/resturan/issues">Report Bug</a>
     ·
-    <a href="https://github.com/moeinparvizi/returan/issues">Request Feature</a>
+    <a href="https://github.com/moeinparvizi/resturan/issues">Request Feature</a>
   </p>
 </div>
 
@@ -98,26 +98,26 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 
   ```bash
-  git clone https://github.com/moeinparvizi/returan && cd returan
+  git clone https://github.com/moeinparvizi/resturan && cd resturan
   virtualenv -p python3 build  # Create virtualenv named build
   source build/bin/activate
   pip install -r requirements.txt # Install Prerequisites
   python manage.py migrate  # Create database tables
   ```
 
-4. Run `returan` using `python manage.py runserver`
-5. Go to [http://localhost:8000](http://localhost:8000) to see your returan version.
+4. Run `resturan` using `python manage.py runserver`
+5. Go to [http://localhost:8000](http://localhost:8000) to see your resturan version.
 
 #### Run On Windows
 
 ``` Command Prompt
-cd returan
+cd resturan
 virtualenv -p "PATH\TO\Python.exe" build # Give Full Path To python.exe
 build\Scripts\activate # Activate The Virutal Environment
 pip install -r requirements.txt
 python manage.py migrate # Create Database Tables
 ```
-4. Run `returan` using `python manage.py runserver`
+4. Run `resturan` using `python manage.py runserver`
 5. Go to [http://localhost:8000](http://localhost:8000) to see your Bestoon version.
 
 
